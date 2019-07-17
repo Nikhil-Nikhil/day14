@@ -12,6 +12,8 @@
 		CEFB89CA22DFDBE700F0B344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB89C822DFDBE700F0B344 /* Main.storyboard */; };
 		CEFB89CC22DFDBE800F0B344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFB89CB22DFDBE800F0B344 /* Assets.xcassets */; };
 		CEFB89CF22DFDBE800F0B344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB89CD22DFDBE800F0B344 /* LaunchScreen.storyboard */; };
+		CEFB89D822DFDEEB00F0B344 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFB89D722DFDEEB00F0B344 /* WebKit.framework */; };
+		CEFB89DA22DFE0C200F0B344 /* Html in Resources */ = {isa = PBXBuildFile; fileRef = CEFB89D922DFE0C200F0B344 /* Html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CEFB89CB22DFDBE800F0B344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFB89CE22DFDBE800F0B344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFB89D022DFDBE800F0B344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFB89D722DFDEEB00F0B344 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CEFB89D922DFE0C200F0B344 /* Html */ = {isa = PBXFileReference; lastKnownFileType = text; path = Html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFB89D822DFDEEB00F0B344 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				CEFB89C322DFDBE700F0B344 /* day14 */,
 				CEFB89C222DFDBE700F0B344 /* Products */,
+				CEFB89D622DFDEEB00F0B344 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +66,17 @@
 				CEFB89CB22DFDBE800F0B344 /* Assets.xcassets */,
 				CEFB89CD22DFDBE800F0B344 /* LaunchScreen.storyboard */,
 				CEFB89D022DFDBE800F0B344 /* Info.plist */,
+				CEFB89D922DFE0C200F0B344 /* Html */,
 			);
 			path = day14;
+			sourceTree = "<group>";
+		};
+		CEFB89D622DFDEEB00F0B344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB89D722DFDEEB00F0B344 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFB89CF22DFDBE800F0B344 /* LaunchScreen.storyboard in Resources */,
+				CEFB89DA22DFE0C200F0B344 /* Html in Resources */,
 				CEFB89CC22DFDBE800F0B344 /* Assets.xcassets in Resources */,
 				CEFB89CA22DFDBE700F0B344 /* Main.storyboard in Resources */,
 			);
